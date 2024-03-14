@@ -43,8 +43,8 @@ const SponsorContent = () => {
 
 const SponsorCard = ({ image }) => {
   const sponsorCard = {
-    width: "300px", // Increased width
-    height: "300px", // Increased height
+    width: "200px", // Increased width
+    height: "200px", // Increased height
   };
   return (
     <div style={sponsorCard}>

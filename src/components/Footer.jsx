@@ -33,7 +33,10 @@ const Footer = () => {
             "linear-gradient(to left, transparent, rgba(255,255,255,0.1), transparent)",
         }}
       />
-      <div className="text-[2rem] text-center" style={gradientText}>
+      <div
+        className="text-[1.5rem] lg:text-[2rem] text-center"
+        style={gradientText}
+      >
         Techsurge & Mridang
       </div>
       <div className="flex gap-5 py-2">
@@ -58,18 +61,18 @@ const Footer = () => {
       />
       <div className="flex flex-col items-center">
         <span
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 text-sm md:text-lg"
           style={{
             background: "-webkit-linear-gradient(white, #38495a)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
           }}
         >
-          <Copyright className="w-[15px] text-[#919AA4]" />
+          <Copyright className="w-[10px] md:w-[15px] text-[#919AA4]" />
           {new Date().getFullYear()} Techsurge & Mridang | All rights reserved.
         </span>
         <span
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 text-sm md:text-lg"
           style={{
             background: "-webkit-linear-gradient(white, #38495a)",
             WebkitBackgroundClip: "text",
@@ -77,8 +80,8 @@ const Footer = () => {
           }}
         >
           Made with
-          <Heart className="w-[20px] text-[#919AA4]" /> by Sparsh Shandilya &
-          Ishaan Sangwan
+          <Heart className="w-[10px] md:w-[20px] text-[#919AA4]" /> by Sparsh
+          Shandilya & Ishaan Sangwan
         </span>
       </div>
     </div>

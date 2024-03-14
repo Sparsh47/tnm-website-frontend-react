@@ -17,30 +17,38 @@ const Timer = () => {
     const hours = Math.floor(minutes / 60);
     const days = Math.floor(hours / 24);
     return (
-      <div className="w-[550px] flex items-center justify-around rounded-xl my-10 gap-3">
+      <div className="lg:w-[550px] flex items-center justify-around rounded-xl my-10 gap-3">
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
             {days}
           </span>
-          <span style={timeStyles}>Days</span>
+          <span className="lg:text-5xl" style={timeStyles}>
+            Days
+          </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
             {hours % 24}
           </span>
-          <span style={timeStyles}>Hours</span>
+          <span className="lg:text-5xl" style={timeStyles}>
+            Hours
+          </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
             {minutes % 60}
           </span>
-          <span style={timeStyles}>Minutes</span>
+          <span className="lg:text-5xl" style={timeStyles}>
+            Minutes
+          </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
             {seconds % 60}
           </span>
-          <span style={timeStyles}>Seconds</span>
+          <span className="lg:text-5xl" style={timeStyles}>
+            Seconds
+          </span>
         </div>
       </div>
     );

@@ -23,7 +23,7 @@ const HomeEvents = () => {
           eventsData.map((data, index) => (
             <div
               key={`event-${index}`}
-              className="flex justify-center items-center" // Center the content horizontally and vertically
+              className="flex justify-center items-center"
             >
               <EventCard data={data} />
             </div>

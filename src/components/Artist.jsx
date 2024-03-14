@@ -15,7 +15,7 @@ const Artist = () => {
       <h2 className="text-4xl md:text-5xl my-6 md:my-10" style={gradientText}>
         Artist Lineup
       </h2>
-      <div className="w-full flex flex-col md:flex-row gap-5 md:gap-8 justify-center">
+      <div className="w-full flex flex-col md:flex-row gap-5 md:gap-8 items-center justify-center">
         <ArtistCard name="EDM Night" date="21st March" image={edm} />
         <ArtistCard name="Raftaar" date="22nd March" image={raftaar} />
       </div>
@@ -25,7 +25,7 @@ const Artist = () => {
 
 const ArtistCard = ({ name, date, image }) => {
   return (
-    <div className="w-full md:w-[300px] h-[500px] rounded-xl shadow-2xl border-[2px] border-[#919AA4]">
+    <div className="w-[300px] md:w-[300px] h-[400px] rounded-xl shadow-2xl border-[2px] border-[#919AA4]">
       <div
         className="w-full h-[85%] rounded-t-lg"
         style={{
