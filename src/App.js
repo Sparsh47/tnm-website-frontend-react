@@ -24,8 +24,8 @@ function App() {
   };
 
   return (
-    <div className="snap-y snap-mandatory overflow-auto h-screen">
-      <div className="snap-start w-full min-h-screen flex items-center justify-around text-white bg-transparent">
+    <div className="lg:snap-y lg:snap-mandatory overflow-auto h-screen">
+      <div className="lg:snap-start w-full min-h-screen flex items-center justify-around text-white bg-transparent">
         <div className="flex flex-col items-center text-center">
           <img
             src={mait}
@@ -59,21 +59,21 @@ function App() {
         </div>
       </div>
       <div
-        className="snap-start w-full min-h-screen flex items-center justify-around"
+        className="lg:snap-start w-full min-h-screen flex items-center justify-around"
         id="about"
       >
         <About />
       </div>
-      <div className="snap-start w-full min-h-screen flex items-center justify-around">
+      <div className="lg:snap-start w-full min-h-screen flex items-center justify-around">
         <Artist />
       </div>
-      <div className="snap-start w-full min-h-screen flex items-center justify-around">
+      <div className="lg:snap-start w-full min-h-screen flex items-center justify-around">
         <HomeEvents />
       </div>
-      <div className="snap-start w-full min-h-screen flex items-center justify-around">
+      <div className="lg:snap-start w-full min-h-screen flex items-center justify-around">
         <PrevSponsors />
       </div>
-      <div className="snap-start w-full">
+      <div className="lg:snap-start w-full">
         <Footer />
       </div>
     </div>
