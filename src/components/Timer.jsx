@@ -19,34 +19,34 @@ const Timer = () => {
     return (
       <div className="lg:w-[550px] flex items-center justify-around rounded-xl my-10 gap-3">
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-4xl" style={timeStyles}>
             {days}
           </span>
-          <span className="lg:text-5xl" style={timeStyles}>
+          <span className="lg:text-2xl" style={timeStyles}>
             Days
           </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-4xl" style={timeStyles}>
             {hours % 24}
           </span>
-          <span className="lg:text-5xl" style={timeStyles}>
+          <span className="lg:text-2xl" style={timeStyles}>
             Hours
           </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-4xl" style={timeStyles}>
             {minutes % 60}
           </span>
-          <span className="lg:text-5xl" style={timeStyles}>
+          <span className="lg:text-2xl" style={timeStyles}>
             Minutes
           </span>
         </div>
         <div className="flex flex-col items-center bg-[rgba(255,255,255,0.05)] p-5 rounded-md gap-3 flex-grow shadow-2xl">
-          <span className="font-bold text-2xl lg:text-5xl" style={timeStyles}>
+          <span className="font-bold text-2xl lg:text-4xl" style={timeStyles}>
             {seconds % 60}
           </span>
-          <span className="lg:text-5xl" style={timeStyles}>
+          <span className="lg:text-2xl" style={timeStyles}>
             Seconds
           </span>
         </div>

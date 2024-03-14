@@ -154,7 +154,7 @@ const Register = () => {
         className="text-white flex items-center justify-center w-full h-[100vh]"
         style={{ fontFamily: "Poppins" }}
       >
-        <div className="bg-[rgba(255,255,255,0.05)] w-[50%] rounded-lg p-5 backdrop-filter">
+        <div className="bg-[rgba(255,255,255,0.05)] xs:mx-5 w-[400px] sm:w-[500px] lg:w-[50%] rounded-lg p-5 backdrop-filter">
           <div className="flex flex-wrap gap-1">
             <div className="p-4 rounded-lg text-white text-center font-bold flex-grow w-80 bg-[rgba(0,0,0,0.2)]">
               Event Registration
